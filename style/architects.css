@@ -1,1 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* sheard css style */
+*{
+    font-family: 'Lato',sans-serif;
+    font-family: 'Open sans', sans-serif;
+    font-family: "Work Sans",sans-serif;
+}
+
+.btn-primary{
+    border: 0;
+    padding: 20px 30px;
+    background-color: #FF900E;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* header style */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+/* banner style  */
+.banner-contant{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-description{
+    color: #727272;
+}
+    
