@@ -224,9 +224,21 @@ main section{
 
 }
 
+/* footer style  */
 
+.footer-title{
+    background-color: rgba(255, 144, 14, 0.10);
+    padding:25px 305px;
+    margin-top: 100px;
+    text-align: center;
+    margin: 100px 200px;
+    border-radius: 5px;
+}
 
-
+.footer-title p{
+    font-size: 24px;
+    font-weight: 400;
+}
 
 
 
@@ -258,7 +270,13 @@ main section{
         grid-template-columns: repeat(1, 1fr);
         
       }
-   
+       .features-section-info{
+        width: 400px;
+
+       }
+       .cards{
+        width: 380px;
+       }
       .features-img img{
         width: 90%;
         margin-left: 10px;
@@ -274,6 +292,14 @@ main section{
       .sponspors-img-container img{
         width: 165px;
       }
+       .footer-title{
+      
+        margin: 20px 0;
+        padding: 0;
+        text-align: center;
+        background-color:rgba(255, 144, 14, 0.10);
+      }
+     
 }
 
 /* tablet and midum devices */
@@ -295,6 +321,7 @@ main section{
       .sponspors-img-container img{
         width: 300px;
       }
+     
 
 }
     
